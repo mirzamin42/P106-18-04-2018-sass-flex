@@ -1,0 +1,15 @@
+$colorBlue:#1E3953;
+$colorGreen: #93C83F;
+$mainWidth:1000px;
+$mainMargin:10px;
+$mainFont: 'Dosis', sans-serif;
+$mainFontSize:30px;
+
+
+body {
+	font-family: $mainFont;
+	font-size: $mainFontSize;
+	margin: 0;
+}
+@import "grid";
+@import "clients";
